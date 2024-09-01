@@ -1,0 +1,131 @@
+@font-face{
+	src: url('../fonts/SuperbaBold Roman.ttf');
+	font-family: 'SuperbaBold';
+}
+@font-face {
+	font-family: 'navfont';
+	src: url('../fonts/OstrichSans-Heavy.otf');
+}
+
+.bg_image{
+	background-image: url('../images/background.png');
+}
+.heading1{
+	font-size: 8vw;
+	font-family: 'SuperbaBold';
+	color: #3d2210;
+	text-shadow: 3px 3px #ffffff;
+}
+.heading2{
+	font-size: 4vw;
+	font-family: 'SuperbaBold';
+	color: #3d2210;
+}
+.navf1{
+	border-style: dashed;
+	font-size: 2vw;
+    font-family: 'navfont';
+    padding: 4px;
+}
+.navf{
+	font-size: 1.5vw;
+font-family: 'navfont';
+}
+	@media screen and (max-width : 670px) {
+		#column2 {
+			display: flex;
+			margin-bottom: 24px;
+			justify-content: center;
+			font-size: 4vw;
+			}
+			#logoimg{
+				width: 5vw;
+			}
+	}
+	@media screen and (max-width : 670px) {
+		#column1{
+			display: flex;
+			margin-bottom: 24px;
+			justify-content: center;
+		}
+		.r2col1{
+			font-size: 4vw;
+		}
+		#r2col1head{
+			font-size: 15vw;
+		}
+		.r2col1subhead{
+			font-size: 11vw;
+		}
+	}
+	.row3{
+		position: relative;
+	}
+	.row3text{
+		font-family: 'navfont';
+		position: absolute;
+		left: 50px;
+		top: 30px;
+		color: white;
+		font-size: 2vw;
+	}
+	@media screen and (max-width: 670px) {
+		.row3text{
+			font-size: 4vw;
+		}
+		div .row4text2 {
+			font-size: 3vw;
+		}
+		div .row4text {
+			font-size: 6vw;
+		}
+		div .row5{
+			margin-bottom: 44px;
+		}
+		div .row6text2{
+			font-size: 3vw;
+			margin-bottom: 44px;
+		}
+		div .row6{
+			font-size: 4vw;
+		}
+		div .row6text{
+			font-size: 4vw;
+		}
+	}
+	.row4text{
+		font-size: 4vw;
+	font-family: 'SuperbaBold';
+	color: #3d2210;
+	}
+	.row4text2{
+		text-align: center;
+		font-size: 1.2vw;
+	}
+	.row6{
+		font-family:'navfont' ;
+		font-size: 2vw;
+	}
+	.row6text{
+		font-family: 'SuperbaBold';
+		font-size: 2.5vw;
+	}
+	div .row8bg{
+		background-image: url('../images/footer-bg.png');
+
+	}
+	div .row8{
+		color: white;
+		font-size: 1.6vw;
+	}
+	button.row5btn {
+		transition: transform 0.3s ease-in-out; /* Applied to the transform property */
+	}
+	img.row5btn {
+		transition: transform 0.3s ease-in-out; /* Applied to the transform property */
+	}
+	
+	.row5btn:hover {
+		transform: translateY(-3px);
+	}
+	
